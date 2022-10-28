@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin:0px;
+  padding-left:0px;
+  text-decoration:none;
+}
+header {
+  background-color: #b5b2d7;
+}
+.heading-point {
+  margin:10px 40px;
+  display: flex;
+  flex-direction:row;
+  align-content: space-between;
+  justify-content: space-between;
+  font-size: 30px
+}
+.heading-logo {
+  border-radius: 80%;
+  
+}
+.paragraph p {
+  text-align:center;
+  font-size:50px;
+  font-family: 'IBM+Plex+Sans&display=swap', 'sansrif';
+  text-shadow: 2px 2px;
+  color: black;
+}
+main {
+  text-align: center;
+  padding:20px;
+  background-image: url('https://th.bing.com/th/id/R.45eed61cb829314d84f286d05096fe4c?rik=%2fnzdoi%2fj7trrHw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-U2uqPh7hw0U%2fUHNEoLahrPI%2fAAAAAAAAAv8%2fbuuzujhKZkY%2fs1600%2fcoffee.jpg&ehk=dkmc%2f9LTQye2YzcQNgNKNejyMIzM9dAM%2bz%2b5TzFWTFc%3d&risl=&pid=ImgRaw&r=0');
+}
+.second-header{
+  padding:20px;
+  background-color: #2EBFBF;
+  border-radius: 20px;
+}
+.fig {
+  color: white;
+  font-size: 20px;
+}
+small a {
+  color: red;
+}
+form {
+  text-align: center;
+  margin-left: 30px;
+  background-color: #2EBFBF;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+h1 a {
+  color: red;
+  text-decoration: none;
+}
+h1 a:hover {
+  background-color: green;
+}
+label {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+input, select {
+  border-radius: 10px;
+    size:350px;
+  margin:10px;
+  padding:4px;
+  color:brown;
+  }
+button {
+  text-align: center;
+  width:15%;
+  height: auto;
+  background-color:#d38d8d;
+  border: 2px solid #d38d8d;
+  border-radius: 10px;
+}
+button a {
+  font-size: 20px;
+  color: white;
+} 
+button:hover {
+  background-color: #93935c;
+  border-bottom: 2px dotted green
+}
+footer {
+  font-size: 30px;
+  background-color: #d9d8e9;
+  margin-top:5px;
+  text-align : center;
+}
+.footer-main {
+  text-align: center;
+  font-size: 20px
+}
+@media only screen and (min-width: 650px) {
+  button a {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  button a {
+    text-align: center;
+    font-size: 8px;
+  }
+}
